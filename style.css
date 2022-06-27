@@ -1,0 +1,186 @@
+:root {
+--accent-color: #2196F3;
+--color-black: #212121; 
+--ms-text-justify: #757575;
+--main-font: 'Raleway', sans-serif;
+--secondar-font: 'Roboto', sans-serif;
+}
+
+.link {
+   text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+
+
+/* =============HEADER========*/
+
+.logotype {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+
+    color: var(--accent-color);
+}
+
+.logo-accent {
+        font-family: var(--main-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
+    
+        color: var(--color-black)
+}
+
+.menu-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,142;
+        letter-spacing: 0.02em;
+    
+        color: var(--color-black);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.phone-mail {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,142;
+        letter-spacing: 0.02em;
+    
+        color: var(--ms-text-justify)
+        background-color: #FFFFFF;;
+}
+
+.phone-mail:hover,
+.phone-mail:focus {
+    color: var(--accent-color);
+}
+.body {
+    font-family: var(--secondar-font);
+}
+
+/* =============/HEADER========*/
+
+/* =============MAIN========*/
+
+.modal-btn {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1,875;
+            /* identical to box height, or 188% */
+        
+                color: #FFFFFF;
+                background: var(--accent-color);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                border-radius: 4px;
+                cursor: pointer;
+}
+
+.hero {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1,36;
+        text-align: center; 
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        /*color: #FFFFFF;*/
+}
+
+   /*====  ИНСТРУМЕНТЫ =====*/
+
+    .tools-title {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1,14;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--color-black);
+    }
+
+    .tools-sentence {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1,7;
+            /* or 171% */
+            letter-spacing: 0.03em;
+            color: var(--ms-text-justify);
+    }
+
+    /*==NAME-team==*/
+     .our-team {     
+                        
+                        
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 42px;
+                        text-align: center;
+                        letter-spacing: 0.03em;
+                
+                        color: var(--color-black);
+}
+
+    .teame-name {  
+             
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 1.18;
+                        /* identical to box height */
+                
+                        text-align: center;
+                        letter-spacing: 0.03em;
+                
+                        color: var(--color-black);
+    }
+
+    .prof-name {
+                        font-family: var(--secondar-font)
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 1.18;
+                        /* identical to box height */
+                    
+                        text-align: center;
+                        letter-spacing: 0.03em;
+                    
+                        color: var(--ms-text-justify);
+    }
+
+                        /*======FOOTER======*/
+
+    .footer-address {
+                            font-family: var(--secondar-font);
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 1,7;
+                            /* or 171% */
+                        
+                            letter-spacing: 0.03em;
+                        
+                            color: #FFFFFF#;
+    }
+
+     .footer-contact {
+                            font-family: var(--secondar-font);
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 1,7;  
+                            /* or 171% */
+                        
+                            letter-spacing: 0.03em;
+                        
+                            color: rgba(255, 255, 255, 0.6)#;
+     }
